@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shubham-Kumar</title>
+    <link rel="icon" href="Images/ShubhamKumar.png" type="image/png">
+
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://www.linkedin.com/in/iamshubhamsingh10/" class="link" target="_blank" rel="noopener noreferrer" 
+          >SK.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+            
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#Work-Experience">Work Experience</a>
+            </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#skills">Skills</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#Certifications">Certifications</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#Education">Education</a>
+            </li>
+            <li class="nav__list-item">
+            <a class="link link--nav" href="#Achievements-and-Awards">Achievements and Awards</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <img src="Images/ShubhamKumar.png" alt="Shubham Kumar Singh A" class="about__image">
+
+        <br>
+       <h1>Hi, I am <span class="about__name">Shubham Kumar Singh</span></h1>
+        <h2 class="about__role">DevOps Engineer</h2>
+        <p class="about__desc">
+          With experience in automating cloud infrastructure, streamlining patching processes, and optimizing system performance. Passionate about delivering scalable solutions using AWS, Terraform, Ansible, and Automox, I strive to bridge development and operations with robust, automated workflows. Currently, I'm contributing to Koch Industries by driving cost-saving automation and ensuring seamless server management across cloud and VMware environments.          <br>
+          <br>
+       </p>
+    
+    
+    
+        <div class="about__contact center">
+            <a href="https://drive.google.com/file/d/1DnsXGX5xcAwESTRQVMib-wWROz6RUA3D/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <span class="btn btn--outline">My Resume</span>
+            </a>
+    
+            <a href="https://github.com/iamshubhamsingh10" aria-label="github" class="link link--icon" target="_blank" rel="noopener noreferrer">
+                <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+    
+            <a href="https://www.linkedin.com/in/iamshubhamsingh10/" aria-label="linkedin" class="link link--icon" target="_blank" rel="noopener noreferrer">
+                <i aria-hidden="true" class="fab fa-linkedin"></i>
+            </a> 
+        </div>
+    </div>
+
+       <!-- Work Experience -->
+<section id="Work-Experience" class="section projects">
+  <h2 class="section__title">Work Experience</h2>
+
+  <div class="projects__grid">
+    <div class="project">
+      <h3>DevOps Engineer</h3><br>
+      <h4>KOCH INDUSTRIES</h4><br>
+      <ul>
+        <li class="project__stack-item">Sep 2023 – Present</li>
+      </ul>
+      <p class="project__description">
+•	Developing PowerShell scripts to audit and report current driver versions.<br>
+•	Automating the upgrade process tailored to OS versions, improving performance and reducing manual efforts. <br>
+•	Identifying and modifying reboot/no-reboot policies.<br>
+•	Automating policy enforcement and enhancing patch compliance.<br>
+•	Automated access level updates on Windows systems using AutoMox and PowerShell to meet compliance and security standards.<br>
+•	Wrote PowerShell scripts to automate VMware Tools upgrades via AutoMox, streamlining maintenance across virtual infrastructure.<br>
+•	Supported large-scale ESXi upgrades in coordination with the operations team, contributing to planning, rollout, and post-upgrade validation.<br>
+•	Provided support for escalated issues and on-call operations, maintaining SLA compliance and ensuring high availability.<br>
+•	Actively handled infrastructure incidents and monitoring using LogicMonitor and Splunk, enabling rapid detection, alert triage, and resolution of system and service-level issues across cloud and hybrid environments.<br>
+•	Actively led and executed remediation efforts for the CrowdStrike issue across both cloud-based and VMware environments, ensuring rapid recovery for production environments.<br>
+
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">AWS</li>
+        <li class="project__stack-item">Terraform</li>
+        <li class="project__stack-item">DevOps</li>
+        <li class="project__stack-item">Automox</li>
+        <li class="project__stack-item">VMware</li>
+      </ul>
+    </div>
+
+
+    <!-- Work Experience -->
+    <div class="project">
+      <h3>DevOps Intern</h3><br>
+      <h4>KOCH INDUSTRIES</h4><br>
+      <ul>
+        <li class="project__stack-item">March 2023 – Sep 2023</li>
+      </ul>
+      <p class="project__description">
+        
+•	Writing PowerShell scripts to identify and categorize SQL server versions.<br>
+•	Supporting deployment automation to improve patching consistency and efficiency.<br>
+•	Developed a PowerShell script to automate Windows activation, significantly reducing manual effort in OS licensing.<br>
+•	Revamped the patching process for Molex Windows servers, streamlining workflow and reducing patching times.<br>
+•	Improved Windows server patch compliance from 83% to 92% by refining patch workflows and leveraging automation.<br>
+•	Assisted in routine operations and incident handling for AWS Cloud and VMware environments, contributing to uptime and reliability.<br>
+•	Performed system health checks, basic troubleshooting, and configuration validation in hybrid environments.<br>
+•	Skilled in supporting hybrid environments spanning AWS Cloud and on-prem VMware infrastructure
+
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">Ansible</li>
+        <li class="project__stack-item">Windows Server</li>
+        <li class="project__stack-item">Cloud</li>
+        <li class="project__stack-item">VMware</li>
+        <li class="project__stack-item">ServiceNow</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Skills -->
+<section class="section skills" id="skills">
+  <h2 class="section__title">Technical Knowledge</h2>
+  <ul class="skills__list">
+    <li class="skills__list-item btn btn--plain">Python</li>
+    <li class="skills__list-item btn btn--plain">Ansible</li>
+    <li class="skills__list-item btn btn--plain">Terraform</li>
+    <li class="skills__list-item btn btn--plain">AWS</li>
+    <li class="skills__list-item btn btn--plain">Automox</li>
+    <li class="skills__list-item btn btn--plain">VMware</li>
+    <li class="skills__list-item btn btn--plain">ServiceNow</li>
+    <li class="skills__list-item btn btn--plain">Git</li>
+    <li class="skills__list-item btn btn--plain">GitLab</li>
+    <li class="skills__list-item btn btn--plain">VSCode</li>
+    <li class="skills__list-item btn btn--plain">Ansible Tower</li>
+    <li class="skills__list-item btn btn--plain">LogicMonitor</li>
+    <li class="skills__list-item btn btn--plain">Splunk</li>
+    <li class="skills__list-item btn btn--plain">Docker</li><li class="skills__list-item btn btn--plain">Kubernetes</li>
+  </ul>
+</section>
+
+
+
+      <!-- Certifications -->
+<section class="section skills" id="Certifications">
+  <h2 class="section__title">Certifications</h2>
+  <ul class="skills__list">
+    <li class="skills__list-item btn btn--plain">
+      <a href="https://www.credly.com/badges/72c1b63f-a190-43e3-87d3-b81b5f9c09c2/linked_in_profile" target="_blank" rel="noopener noreferrer">
+        HashiCorp Certified Terraform Associate
+      </a>
+    </li>
+    <li class="skills__list-item btn btn--plain">
+      <a href="https://www.coursera.org/account/accomplishments/verify/9C4ZRQLZ7ZPL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" rel="noopener noreferrer">
+        AWS Cloud Practitioner
+      </a>
+    </li>
+    <li class="skills__list-item btn btn--plain">
+      <a href="https://www.udemy.com/certificate/UC-93378197-d0ee-469b-80b8-fb12bac0613f/" target="_blank" rel="noopener noreferrer">
+        Ansible for Beginners
+      </a>
+    </li>
+  </ul>
+</section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>SMART ATTENDANCE TRACKER</h3>
+            <p class="project__description">
+              Developed a real-time attendance automation system using ML, incorporating OpenCV and the HOG algorithm for face detection.
+              <br>
+              Streamlined attendance tracking by marking individuals in CSV files reduces manual effort.<br>
+              The system is customizable and scalable, making it suitable for applications in education, workplaces, and event management.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">PYTHON</li>
+              <li class="project__stack-item">MACHINE LEARNING</li>
+              <li class="project__stack-item">OpenCV</li>
+              <li class="project__stack-item">HOG Algorithm</li>
+              <!-- <li class="project__stack-item">React</li> -->
+            </ul>
+
+            <a
+              href="https://github.com/iamshubhamsingh10/MINI-PROJECT"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank" rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>     
+      </section>
+
+       <!-- Education -->
+<section id="Education" class="section projects">
+  <h2 class="section__title">Education</h2>
+
+  <div class="projects__grid">
+
+    <div class="project">
+      <h3>KS Institute of Technology, Bengaluru</h3>
+      <p class="project__description">
+        <b>B.E in Electronics and Communication Engineering</b> <br>
+        Affiliated to VTU – Visvesvaraya Technological University <br>
+        2019 – 2023
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>SSMRV PU College, Bengaluru</h3>
+      <p class="project__description">
+        <b>Pre-University Course – Class XII</b> <br>
+        Karnataka State Pre-University Board <br>
+        2016 – 2018
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Modern English High School</h3>
+      <p class="project__description">
+        <b>Class X – State Board</b> <br>
+        Karnataka Secondary Education Examination Board <br>
+        2015 – 2016
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+       <!-- Achievements -->
+<section id="Achievements-and-Awards" class="section projects">
+  <h2 class="section__title">Achievements and Awards</h2>
+
+  <div class="projects__grid">
+
+    <div class="project">
+      <h4><b>PAPER PRESENTATION</b></h4>
+      <p class="project__description">
+        Secured 2nd Prize in Paper Presentation at academic event hosted by the department.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">2022–2023</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4><b>SATELLITE MODEL PRESENTATION</b></h4>
+      <p class="project__description">
+        Presented a functional satellite model as part of a tech exhibition and won accolades.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">2020–2020</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h4><b>ECE FASHION TEAM</b></h4>
+      <p class="project__description">
+        Member of the ECE Department Fashion Team; participated in inter-department cultural events and shows.
+      </p>
+      <ul class="project__stack">
+        <li class="project__stack-item">2020–2023</li>
+      </ul>
+    </div>
+
+    <!-- (Your existing achievements below...) -->
+  </div>
+</section>
+
+
+
+      <!-- Contact -->
+<section class="section contact center" id="contact">
+  <h2 class="section__title">Contact</h2>
+  <a href="mailto:shubhamkumarsinghyaak@gmail.com">
+      <span class="btn btn--outline">shubhamkumarsinghyaak@gmail.com</span>
+  </a>
+  <br>
+</section>
+
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/iamshubhamsingh10"
+        target="_blank" rel="noopener noreferrer"
+        class="link footer__link"
+      >
+        Created By Shubham
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
